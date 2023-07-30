@@ -1,19 +1,25 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
+#include<stdlib.h>
 
-void main() {
-    char file_name[25], pattern[10], temp[200];
-    FILE *fp;
-    printf("\nEnter the file name:\n");
-    scanf("%s", file_name);
-    printf("\nEnter the pattern:\n");
-    scanf("%s", pattern);
-    fp = fopen(file_name, "r");
-    while (!feof(fp)) {
-        fgets(temp, 100, fp);
-        if(strstr(temp, pattern))
-            printf("%s", temp);
-    }
-    fclose(fp);
+void main(){
+  FILE *fp;
+  char pattern[10],temp[200],file_name[20];
+  printf("Enter the file name\n");
+  scanf("%s",file_name);
+  printf("Enter the pattern\n");
+  scanf("%s",pattern);
+  fp=fopen(file_name,"r");
+  if(fp==NULL){
+   printf("The file doesnt is not present\n");
+   return;
+  } 
+  while(!feof(fp)){
+   fgets(temp,100,fp);
+   if(strstr(temp,pattern)){
+       printf("The pattern is present in the file\n");
+       printf("%s",temp);
+       }
+  }
+  fclose(fp);
 }
