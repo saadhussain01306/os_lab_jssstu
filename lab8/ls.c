@@ -26,3 +26,5 @@ void main(int argc, char *argv[])
     }
     closedir(dp);
 }
+/* gcc
+./a.out directory name*/ 
