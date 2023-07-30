@@ -30,3 +30,15 @@ int main(int argc, char *argv[])
     shmctl(shmid, IPC_RMID, NULL);
     return 0;
 }
+/*
+gcc odd_parent.c -o parent
+gcc odd_child.c -o odd
+./parent 10
+
+Child Printing:
+1 3 5 7 9 11 13 15 17 19 
+[PARENT] Child completed
+
+Parent printing:
+1 3 5 7 9 11 13 15 17 19 
+*/
