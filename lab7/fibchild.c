@@ -32,3 +32,8 @@ int main(int argc, char *argv[])
     shmctl(shmid, IPC_RMID, NULL);
     return 0;
 }
+
+/*gcc fibonacci_parent.c -o parent
+gcc fibonacci_child.c -o fib
+./parent 10
+*/
