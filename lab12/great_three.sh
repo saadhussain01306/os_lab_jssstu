@@ -29,3 +29,15 @@ if [[ n1 -eq n2 ]] && [[ n2 -eq n3 ]]
  then
     echo "All three numbers are same"
 fi
+
+#output
+# gedit great_three.sh
+# bash great_three.sh
+# Enter the three numbers
+# enter the 1st number
+#34
+#enter the 2nd number
+#21
+#enter the 3rd number
+#67
+#The greatest of the three numbers is 67
