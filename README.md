@@ -1,5 +1,7 @@
-Operating systems lab programs implemented @SJCE
-list of programs:-
+Operating systems lab programs implemented @SJCE :)
+
+List of programs:-
+
 NOTE: For all the scheduling algorithms write the expected output for the given data (table 
 with set of processes, AT, BT) along with the Gantt chart. Execute the scheduling program 
 for the same data. The output should be in the form of table with all the necessary time 
