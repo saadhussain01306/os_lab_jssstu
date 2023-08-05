@@ -1,6 +1,3 @@
-# os_new
-Operating systems lab programs @SJCE
-
 Operating systems lab programs implemented @SJCE :)
 
 List of programs:-
