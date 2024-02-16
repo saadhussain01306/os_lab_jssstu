@@ -1,4 +1,4 @@
-# Operating Systems Lab Programs implemented @SJCE :)
+# Operating Systems Lab Programs implemented @JSSSTU
 
 ## List of Programs:-
 
